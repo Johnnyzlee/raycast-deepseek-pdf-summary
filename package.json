@@ -1,0 +1,15 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "deepseek-pdf-summary",
+  "title": "DeepSeek PDF Summary",
+  "description": "Read the current browser PDF with DeepSeek and summarize it in Chinese",
+  "icon": "icon.png",
+  "author": "li_zeng",
+  "license": "MIT",
+  "platforms": ["macOS"],
+  "categories": ["Productivity"],
+  "commands": [{"name": "summarize-pdf", "title": "PDF summary by DeepSeek for lzengan", "description": "解析当前浏览器中的 PDF，生成中文摘要；也可输入链接或选择本地 PDF", "mode": "view", "keywords": ["pdf", "总结", "论文", "deepseek", "摘要"]}],
+  "dependencies": {"@raycast/api": "1.104.24", "yaml": "^2.8.1"},
+  "devDependencies": {"@types/node": "^22.0.0", "@types/react": "^19.0.0", "typescript": "^5.9.3", "tsx": "^4.20.0"},
+  "scripts": {"build": "ray build", "dev": "ray develop", "typecheck": "tsc --noEmit", "test": "tsx --test tests/*.test.ts"}
+}

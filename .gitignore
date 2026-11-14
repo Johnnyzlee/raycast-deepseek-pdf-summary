@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+.env
+.env.*
+!.env.example
+providers.yaml
+*.log
+*.source.json
+dist/
+work/
+raycast-env.d.ts
